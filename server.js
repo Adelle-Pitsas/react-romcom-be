@@ -3,7 +3,7 @@ const app = express()
 const cors = require('cors')
 const knex = require('./knex')
 const bodyParser = require('body-parser');
-const { DatabaseError } = require('pg')
+//const { DatabaseError } = require('pg')
 const PORT = process.env.PORT || 8080
 
 app.use(bodyParser.json());
