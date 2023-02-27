@@ -10,7 +10,7 @@ module.exports = {
       port: 5432,
       database: 'react-romcom',
       user: 'postgres',
-      password: 'turing'
+      password: 'postgres'
     }
   },
   production: {
